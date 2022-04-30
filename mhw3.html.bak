@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sport da tavola, 5 posti in Sicilia dove praticarli.</title>
+		<link rel="stylesheet" href="mhw1.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Domine&family=Patua+One&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+		<header>
+			<div id="overlay"></div>
+			<nav>
+				<div id="links">
+					<a class="sport" href="#skateboard">Skateboard</a>
+					<a class="sport" href="#snowboard">Snowboard</a>
+					<a class="sport" href="#surf">Surf</a>
+					<a class="sport" href="#wakeboard">Wakeboard</a>
+					<a class="sport" href="#kytesurf">Kytesurf</a>
+				</div>
+				<div id="menu">
+				  <div></div>
+				  <div></div>
+				  <div></div>
+				</div>
+			</nav>
+			<div>
+				<h1 id="Title">Dove fare sport da tavola in Sicilia?</h1>
+			</div>
+		</header>
+		<article>
+			<div id='content'>
+				<section id="skateboard">
+					<div>
+						<h2>Skateboard</h2>
+						<strong>Parco Tondo Gioeni, Catania</strong>
+						<p>
+                            Il Parco Gioeni offre strutture semplici e adatte anche ai principianti.
+                            Il parco è uno spazio autogestito, il che significa ingresso libero a qualsiasi ora del giorno e della notte ma anche spesso utilizzato anche per eventi
+                            e raduni. Per gli appassionati, rappresenta una buona location in cui praticare lo skateboarding e restare in allenamento.
+                        </p>	
+					</div>
+					<div class="Img"></div>
+				</section>
+				
+				<section id="snowboard">
+					<div>
+						<h2>Snowboard</h2>
+						<strong>Piano Provenzana, Etna</strong>
+						<p>
+                            Non ci può essere niente di più insolito che mettere gli sci ai piedi e scendere lungo i declivi di un vulcano.
+                            Forse è difficile riuscire a immaginare quanto può essere emozionante stare su un vulcano attivo interamente ricoperto di neve e scorgere il mar Ionio sullo sfondo:
+                            è questo il panorama per chi sceglie di sciare a piano Provenzana, stazione sciistica di Linguaglossa, sul versante nord-est dell’Etna.
+                            La stagione sciistica, in genere, prende avvio dal periodo natalizio e può andare avanti fino a quello di Pasqua.
+                            Gli appassionati possono invece sfruttare periodi più lunghi, per il fatto che non sono vincolati all'apertura delle discese,
+                            ma possono semplicemente approfittare della neve caduta, intraprendendo scenografici percorsi fra i crateri dell'Etna.
+                            
+                        </p>	
+					</div>
+					<div class="Img"></div>
+				</section>
+				
+				<section id="surf">
+					<div>
+						<h2>Surf</h2>
+						<strong>San Leone, Agrigento</strong>
+						<p>
+                            In Sicilia è vivo il surf e numerosi sono gli spot dove i surfisti si ritrovano.
+                            San Leone è uno di questi con 7 e più spot differenti per caratteristiche e particolarità.
+                            Un posto perfetto sia per chi vuole imparare sia per chi sa già utilizzarlo e vuole divertirsi.
+                            Acqua bassa per centinaia di metri e con il vento del Mediterraneo, il ritorno alla spiaggia, fatta di sabbia fine, è assicurato sempre.
+                        </p>	
+					</div>
+					<div class="Img"></div>
+				</section>
+				
+				<section id="wakeboard">
+					<div>
+						<h2>Wakeboard</h2>
+						<strong>Sunisland WakePark, Augusta</strong>
+						<p>
+                            Il Sunisland è una realtà unica in Sicilia, dove l'unico scopo è promuovere lo sport, il benessere a 360°, l’unione e l’amicizia.
+                            Il wake aiuta a vivere in ambiente immerso nella natura dove si praticano tante attività, dalla slackline all’allenamento a corpo libero.
+                            Ma il Sunisland è anche relax, un luogo al fresco durante i giorni di calura, il posto ideale dove stare in famiglia o con gli amici e ornare a
+                            giocare qualunque sia la tua età.
+                           
+                        </p>	
+					</div>
+					<div class="Img"></div>
+				</section>
+				
+				<section id="kytesurf">
+					<div>
+						<h2>Kytesurf</h2>
+						<strong>Stagnone, Marsala</strong>
+						<p>
+							Lo Stagnone è una laguna immensa, aperta al mare, che si estende tra le città di Trapani e Marsala e dista solo un’ ora di automobile dall’aeroporto di Palermo.
+							Immersa tra saline e vigneti, è caratterizzata da acqua piatta e fondali bassi che lo rendono il luogo adatto per i principianti nonché un paradiso per i freestylers provenienti da tutto il mondo.
+							Qui il vento soffia per circa 300 giorni all’anno, la direzione non importa, la prerogativa per entrare è solo una: che ci sia vento!
+							Lo spot dello Stagnone lavora meglio con il maestrale, ma lo scirocco seppur un po’ rafficato, quando entra può superare anche i 30 nodi.
+							Nel periodo estivo, a farlo da padrone è soprattutto il vento termico, che può raggiungere  i 20 nodi.
+							Le temperature miti della Sicilia, rendono lo Stagnone il luogo ideale per allenarsi da marzo fino ai mesi di ottobre-novembre.
+							In questo periodo le scuole di kitesurf dislocate lungo tutta la laguna sono molte e tutte attive.
+						</p>	
+					</div>
+					<div class="Img"></div>
+				</section>
+			</div>
+		</article>
+		<footer>
+			<div id="Profilo">
+				<img src='Profilo.png'>
+			</div>
+			<p><em><strong>Studente</strong></em>: Mauro Orazio Drago</p>
+			<p><strong>Matricola</strong>: 1000005048</p>
+			</div>
+		</footer>
+    </body>
+</html>

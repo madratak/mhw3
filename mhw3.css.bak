@@ -1,0 +1,227 @@
+html{
+  font-size: 25px;
+  
+}
+header{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-image: url("https://pannello.eurotoursitalia.it/menu/gestione_offerte/images/offerte/wide/1600w/10322_1.jpg") ;
+    background-size: cover;
+    background-position: center;
+	display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+	margin-bottom: 1%
+}
+
+
+#overlay {
+  background-color:rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+#Title{
+  z-index: 2;
+  font-size: 2.2rem;
+  color: rgb(255,255,225);
+  position: relative;
+}
+
+body {
+	background-color: rgba(255, 255, 210, 0.2);
+	margin: 0;
+}
+
+
+header nav{
+    position: fixed;
+	background-color: rgba(0,0,0,0.55);
+	z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: .88rem;
+    padding: 14px 20px 14px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+	border-bottom: 2px solid white;
+}
+
+.sport {
+	border: 2px solid;
+	border-color: rgb(255,255,210);
+	border-radius: 20px;
+	padding: 5px 8px 5px 8px;
+	margin: 5px;
+	color: rgb(255,255,210);
+	text-decoration: none;
+	
+}
+.sport:hover {
+	background-color: rgba( 255, 255, 170, 0.5);
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+	border: 4px solid rgb(0,51,102);
+	padding: 20px;
+	width: 55%;
+	margin: 15px;
+	border-radius: 2.5%;
+	box-shadow: 10px 10px 5px grey;
+}
+
+section div{
+	width: 90%; 
+}
+
+section div p{
+	font-size: 0.83rem;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	line-height: 1.3;
+}
+
+section h2 {
+	font-family: 'Domine', serif;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+section strong {
+	font-family: 'Patua One', cursive;
+	color:rgba(56, 55, 54, 0.623);
+	font-weight: lighter;
+}
+
+article{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#content {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.Img {
+	display: inline-block;
+	height: 70vh;
+	width: 90%;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#skateboard .Img {
+	background-image: url("https://www.baglioridisicilia.com/wp-content/uploads/2018/07/hubert-mousseigne-661276-unsplash.jpg");
+}
+
+#snowboard .Img {
+	background-image: url("https://static.wixstatic.com/media/5d7a69_2df4228f0d904efa838e623370b34ab6~mv2.jpg/v1/fill/w_640,h_422,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/snowboard.jpg");
+}
+
+#surf .Img {
+	background-image: url("http://www.surfcorner.it/wp-content/uploads/2022/02/JordySmith_Pipe22_TYH8483_Heff-600x400.jpg");
+}
+
+#wakeboard .Img {
+	background-image: url("https://www.robertozampinophoto.com/wp-content/uploads/2015/10/gianpaolo.jpg");
+}
+
+#kytesurf .Img {
+	background-image: url("https://www.marsalanews.it/wp-content/uploads/2018/03/Kite-%E2%80%93-free-style-a-Marsala-il-campionato-italiano-2018.jpg");
+}
+
+footer {
+	width: 100%;
+	bottom: 0em;
+	height: 9rem;
+	background-color: rgb(48,48,48);
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 35px 0px 35px 0px;
+	margin-top: 15px;
+}
+
+footer p {
+	margin: auto 3px;
+}
+
+#Profilo {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#Profilo img{
+	width: 14%;
+	border-radius: 100%;
+	border: 2px solid white;
+}
+
+
+#menu {
+  display: none;
+}
+
+#menu div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+@media(max-width: 850px){
+		html{
+		font-size: 19px;
+	}
+	section{
+		width: 82%;
+	}
+
+}
+
+@media (max-width: 630px) {
+  #links {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
+  
+  .Img{
+		height: 40vh;
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+	
+	#Profilo img{
+		width: 100px;
+		margin-top: -2%;
+		margin-bottom: 3%;
+	}
+	
+	header{
+		background-position:left; 
+	}
+}
